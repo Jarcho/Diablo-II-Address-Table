@@ -43,6 +43,8 @@ D2GDI.dll	CelDisplayRight	Offset	0xCA98
 D2GFX.dll	DrawCelContext	Ordinal	10042		
 D2GFX.dll	DrawRectangle	Ordinal	10028		
 D2GFX.dll	IsWindowedMode	Offset	0x14A3C		
+D2GFX.dll	PerspectiveCameraPosX	Offset	0x1d61c	
+D2GFX.dll	PerspectiveCameraPosY	Offset	0x1d618	
 D2GFX.dll	ResolutionMode	Offset	0x14A40	0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700	
 D2GFX.dll	VideoMode	Offset	0x14A38	1 = GDI, 2 = Software, 3 = DirectDraw, 4 = Glide, 5 = OpenGL, 6 = Direct3D, 7 = Rave	
 D2GFX.dll	WindowHandle	Offset	0x14A44	gtGfxSystem.hWnd	
